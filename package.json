@@ -1,3 +1,4 @@
+
 {
   "name": "support-ticketing-tool",
   "private": true,
@@ -6,14 +7,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
     "vite": "^6.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "lucide-react": "^0.468.0"
+    "lucide-react": "^0.468.0",
+    "express": "^4.21.2"
   },
   "devDependencies": {}
 }
